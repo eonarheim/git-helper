@@ -18,7 +18,10 @@
 	a = add
 	c = commit -m
 	s = status -s
+	r = rebase
 	ac = commit -am
+	rc = rebase --continue
+	mt = mergetool
 	co = checkout
 	cob = checkout -b
 	upush = push -u
