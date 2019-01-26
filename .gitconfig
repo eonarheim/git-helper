@@ -19,7 +19,7 @@
 	c = commit -m
 	s = status -s
 	r = rebase
-	lb = for-each-ref --sort=-committerdate refs/heads/
+	lb = for-each-ref --sort='-committerdate' --format='%(committerdate) - %(refname)' refs/heads
 	ac = commit -am
 	rc = rebase --continue
 	mt = mergetool
