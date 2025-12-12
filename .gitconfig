@@ -35,3 +35,20 @@
 	enabled = true
 [push]
 	default = current
+[push]
+	default = current
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = gpg
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	name = Erik Onarheim
+	email = erik.onarheim@gmail.com
+[rerere]
+	enabled = true
+[pull]
+	rebase = false
+[core]
+	editor = nvim
